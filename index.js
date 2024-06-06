@@ -30,7 +30,7 @@ app.post('/audio/transcription', upload.single('audio'), async(req, res,)=> {
     try {
         if(req.file){
             // const audioFileBuffer = await fs.readFileSync(./public/uploads/${req.file.filename});
-            // let blob = new Blob([audioFileBuffer]); No funciona
+            // let blob = new Blob([audioFileBuffer]);
             // const formData = new FormData();
             // formData.append('model', 'whisper-1');
             // formData.append('file', audioFileBuffer, {
